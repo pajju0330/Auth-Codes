@@ -1,0 +1,71 @@
+.box{
+    background-image: linear-gradient(to right bottom,rgba(206,212,218,.5), rgba(108,117,125,.5), rgba(73,80,87,.5), rgba(52,58,64,.5),rgba(33,37,41,.5));
+    color: white;
+    padding: 4rem;
+    margin-top:4rem;
+    margin-bottom:6rem;
+    margin-right:20rem;
+    margin-left:20rem;
+}
+
+h3{
+    color: #dc3549;
+    font-weight: bolder;
+}
+
+.link{
+    color: #dc3545;
+    /* text-decoration: none; */
+}
+
+.link:hover{
+    color: #d1d1d1;
+}
+
+input[type="text"], input[type="password"] {
+
+    background-color : #d1d1d1; 
+  
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    box-shadow: 0 0 10px #dc3545;
+    border: 2px solid #dc3545;
+    background-color : #d1d1d1; 
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    box-shadow: 0 0 10px #dc3545;
+    background-color : #d1d1d1; 
+}
+
+.but{
+    width: 100%;
+}
+
+.logo{
+    width: 30px;
+}
+
+a.sigunup-image:hover{
+    box-shadow: 0 0 10px #dc3545;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        margin-right:10rem;
+        margin-left:10rem;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .box {
+        margin-right:5rem;
+        margin-left:5rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .box {
+        margin-right:1.5rem;
+        margin-left:1.5rem;
+    }
+}
